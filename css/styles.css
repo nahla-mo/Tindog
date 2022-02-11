@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-family: "Ubuntu";
+}
+
+.container-fluid {
+    padding: 8% 5%;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    height: 600px;
+    text-align: left;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 10%
+}
+
+@media (max-width:995px) {
+    #title .container-fluid {
+        height: auto;
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+    .nav-item {
+        text-align: left;
+    }
+}
+
+
+/* Feathers Section */
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.features-box {
+    padding: 5%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.icon-fa {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-fa:hover {
+    color: #ff4c68;
+}
+
+.p-feathures {
+    color: #40514E;
+    font-family: "Ubuntu";
+    font-size: 1.1rem;
+    width: 65%;
+    margin: 0 20%;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: auto;
+    width: 80%;
+}
+
+.testimonial-image {
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-colomn {
+    padding: 3% 2%;
+}
+
+.cta-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.btn-cta {
+    margin: 3% 1% 0;
+}
+
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+}
